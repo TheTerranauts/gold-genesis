@@ -16,12 +16,8 @@
     "deploy:prod": "ts-node -r dotenv/config src/contract/deploy.ts dotenv_config_path=.env.prod",
     "migrate:test": "ts-node -r dotenv/config src/contract/migrate.ts dotenv_config_path=.env.test",
     "migrate:prod": "ts-node -r dotenv/config src/contract/migrate.ts dotenv_config_path=.env.prod",
-    "snapshot:prod": "ts-node -r dotenv/config src/execute/1_snapshot.ts dotenv_config_path=.env.prod",
-    "claim:test": "ts-node -r dotenv/config src/execute/2_claim.ts dotenv_config_path=.env.test",
-    "claim:prod": "ts-node -r dotenv/config src/execute/2_claim.ts dotenv_config_path=.env.prod",
     "mint:test": "ts-node -r dotenv/config src/execute/1_mint.ts dotenv_config_path=.env.test",
     "mint:prod": "ts-node -r dotenv/config src/execute/1_mint.ts dotenv_config_path=.env.prod",
-    "2_claim": "ts-node src/execute/2_claim.ts"
   },
   "devDependencies": {
     "@types/bn.js": "^5.1.0",

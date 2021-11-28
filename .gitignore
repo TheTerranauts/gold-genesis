@@ -260,9 +260,10 @@ env/
 /.env.test
 /.env.prod
 /terranaut_owners.json
-/gold_snapshot.json
+/snapshot.json
 /metadata.json
 artifacts/*
 
 /artifacts/cw721_metadata_onchain.wasm
 /artifacts/
+/artifacts.zip
