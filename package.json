@@ -17,7 +17,7 @@
     "migrate:test": "ts-node -r dotenv/config src/contract/migrate.ts dotenv_config_path=.env.test",
     "migrate:prod": "ts-node -r dotenv/config src/contract/migrate.ts dotenv_config_path=.env.prod",
     "mint:test": "ts-node -r dotenv/config src/execute/1_mint.ts dotenv_config_path=.env.test",
-    "mint:prod": "ts-node -r dotenv/config src/execute/1_mint.ts dotenv_config_path=.env.prod",
+    "mint:prod": "ts-node -r dotenv/config src/execute/1_mint.ts dotenv_config_path=.env.prod"
   },
   "devDependencies": {
     "@types/bn.js": "^5.1.0",
